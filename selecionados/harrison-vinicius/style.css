@@ -1,0 +1,531 @@
+header {
+  background: url('https://raw.githubusercontent.com/TootzSolucoes/test-front-end/master/assets/bg-feature.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cabecalho {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.sombra {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), transparent);
+  height: 100px;
+}
+
+.navegacao {
+  position: relative;
+}
+
+.navbar {
+  position: absolute !important;
+  z-index: 1;
+  width: 100%;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar-toggler {
+  background-color: #4286f4 !important;
+  height: 40px;
+}
+
+.navbar-toggler-icon {
+  display: inline !important;
+  color: white;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.carrossel {
+  padding: 60px 0;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  color: white;
+  text-align: center;
+}
+
+.intro .titulo h1 {
+  font-size: 28px;
+}
+
+.btn-personalizado {
+  background: #4286f4;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 5px 20px;
+}
+
+.quem-somos {
+  background: url('https://raw.githubusercontent.com/TootzSolucoes/test-front-end/master/assets/bg-quem-somos.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  padding: 60px 0;
+  filter: saturate(150%);
+}
+
+.quem-somos-intro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quem-somos-descricao {
+  color: white;
+  width: 40%;
+}
+
+.quem-somos-descricao h2 {
+  text-transform: uppercase;
+}
+
+.btn-laranja {
+  background: #F85F1D;
+  opacity: 0.9;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.quem-somos-titulo {
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.quem-somos-titulo h2 {
+  font-size: 62px;
+  margin: 0;
+}
+
+.nossos-servicos {
+  padding: 120px 0;
+}
+
+.servicos-titulo {
+  margin-bottom: 50px;
+}
+
+.servicos-titulo h2 {
+  color: #F85F1D;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.servicos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servico {
+  border: 5px solid #F85F1D ;
+
+}
+
+.fa-cogs {
+  font-size: 150px !important;
+  color: #F85F1D;
+  padding: 50px;
+}
+
+.clientes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-home,
+.fa-building,
+.fa-university,
+.fa-hospital-o {
+  font-size: 100px !important;
+  color: #4286f4;
+  margin: 20px 50px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: auto !important;
+}
+
+#carouselExampleControls2 .carousel-control-prev-icon {
+  background-image: url('http://www.transparentpng.com/download/arrow/collection-of-right-arrow-icons-png-8.png') !important;
+  transform: rotate(180deg);
+  filter: brightness(80%);
+}
+
+#carouselExampleControls2 .carousel-control-next-icon {
+  background-image: url('http://www.transparentpng.com/download/arrow/collection-of-right-arrow-icons-png-8.png') !important;
+  filter: brightness(80%);
+}
+
+#carouselExampleControls4 .carousel-control-prev-icon,
+#carouselExampleControls5 .carousel-control-prev-icon {
+  background-image: url('http://www.transparentpng.com/download/arrow/collection-of-right-arrow-icons-png-8.png') !important;
+  transform: rotate(180deg);
+  filter: brightness(80%);
+}
+
+#carouselExampleControls4 .carousel-control-next-icon,
+#carouselExampleControls5 .carousel-control-next-icon {
+  background-image: url('http://www.transparentpng.com/download/arrow/collection-of-right-arrow-icons-png-8.png') !important;
+  filter: brightness(80%);
+}
+
+#carouselExampleControls3 .carousel-control-prev-icon {
+  background-image: url('http://vnsoftindia.com/anagram/img/arrow-25-xxl.png') !important;
+  transform: rotate(180deg);
+  height: 30px;
+  width: 30px;
+}
+
+#carouselExampleControls3 .carousel-control-next-icon {
+  background-image: url('http://vnsoftindia.com/anagram/img/arrow-25-xxl.png') !important;
+  height: 30px;
+  width: 30px;
+}
+
+#carouselExampleControls3 .carousel-inner {
+  padding: 0 35px;
+}
+
+#carouselExampleControls3 .carousel-control-next,
+#carouselExampleControls3 .carousel-control-prev {
+  margin-bottom: 40px;
+}
+
+.clientes-titulo h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4286f4;
+  margin-bottom: 30px;
+}
+
+.nosso-clientes {
+  margin-bottom: 60px;
+}
+
+.azul-escuro {
+  background: #4286f4;
+  height: 100px;
+}
+
+.azul-claro {
+  background: #00B9DF;
+}
+
+.contato {
+  padding: 50px 0;
+  display: flex;
+}
+
+.mapa {
+  width: 55%;
+  border-right: 1px solid black;
+  padding-right: 60px;
+}
+
+.nossos-contatos {
+  color: white;
+}
+
+.nossos-contatos h3 {
+  text-transform: uppercase;
+}
+
+.nossos-contatos ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
+}
+
+.nossos-contatos li {
+  margin-right: 20px;
+  opacity: 0.8;
+}
+
+.fa-phone,
+.fa-envelope {
+  color: #F85F1D;
+  margin-right: 5px;
+}
+
+.nosso-escritorio h3 {
+  text-transform: uppercase;
+  color: white;
+  margin-top: 30px;
+}
+
+.nosso-escritorio p {
+  color: white;
+  opacity: 0.7;
+}
+
+.nosso-escritorio img {
+  width: 100%;
+  height: 500px;
+}
+
+.formulario {
+  width: 45%;
+  padding-left: 60px;
+}
+
+.formulario-intro {
+  color: white;
+}
+
+.formulario-intro h2 {
+  text-transform: uppercase;
+}
+
+.formulario-intro p {
+  opacity: 0.7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 20px !important;
+  height: 40px !important;
+  padding-left: 10px;
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+
+textarea {
+  padding-left: 10px;
+  border: none;
+}
+
+.campos-esq,
+.campos-dir {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-form {
+  color: white;
+  background: #F85F1D;
+  width: 110px;
+  height: 40px;
+  text-transform: uppercase;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.nossos-servicos.mobile{
+  display: none;
+}
+
+.nosso-clientes.mobile{
+	display: none;
+}
+
+.nosso-clientes.tablet .clientes{
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nosso-clientes.tablet {
+  display: none;
+}
+
+@media (min-width: 389px) {
+  .navbar-collapse {
+    margin-top: -25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .quem-somos-titulo {
+    display: none;
+  }
+
+  .quem-somos-descricao {
+    width: 100%;
+  }
+
+  .campos {
+    flex-direction: column;
+  }
+
+  .campos-esq {
+    padding-right: 0 !important;
+  }
+
+  .contato {
+    padding-bottom: 0;
+  }
+
+  .copyright {
+    flex-direction: column;
+  }
+
+  .copyright p {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .fundo {
+    padding: 10px !important;
+  }
+
+  .nosso-clientes.tablet {
+    display: none !important;
+  }
+
+  .nosso-clientes.mobile {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .nosso-clientes.mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: #4286f4;
+  }
+}
+
+@media (max-width: 1023px) {
+  .servicos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servico {
+    margin-bottom: 50px;
+  }
+
+  .clientes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contato {
+    flex-direction: column-reverse;
+  }
+
+  .formulario {
+    width: 100%;
+    padding: 0;
+  }
+
+  .mapa {
+    width: 100%;
+    padding: 0;
+    border: none;
+    margin-top: 50px;
+  }
+
+  .nosso-escritorio img {
+    height: 100%;
+  }
+
+  .campos {
+    display: flex;
+  }
+
+  .campos-esq, .campos-dir {
+    width: 100%;
+  }
+
+  .campos-esq {
+    padding-right: 20px;
+  }
+
+  .nossos-servicos.desktop {
+    display: none;
+  }
+
+  .nossos-servicos.mobile {
+    display: block;
+  }
+
+  .nosso-clientes.desktop{
+  	display: none;
+  }
+
+  .nosso-clientes.tablet {
+    display: block;
+  }
+
+  .fa-cogs {
+    font-size: 140px !important;
+    padding: 40px;
+  }
+}
+
+.fundo{
+	background: white;
+	padding: 50px;
+}
+
+.fundo-descricao{
+	display: flex;
+	justify-content: space-between;
+}
+
+.copyright {
+  display: flex;
+}
+
+.copyright p {
+	color: #4286f4;
+  margin-right: 5px;
+}
+
+.tootz p {
+	color:  lightgray;
+	font-size: 30px;
+
+}
+
+.servico p{
+	text-align: center;
+	color: #F85F1D;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin-top: 5px;
+}

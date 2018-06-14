@@ -1,0 +1,110 @@
+@import index.css;
+
+@media (min-width: 1400px) {
+  .footerContent {
+    margin-top: -16%
+  }
+}
+
+@media only screen and (max-width: 1005px) {
+
+  .dropdown {
+    display: hidden;
+    position: absolute;
+    transition: 0.7s ease all;
+    background-color: #456EB5;
+    color: #FFF;
+    width: 100%;
+    text-transform: uppercase;
+    z-index: 2;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 90px;
+    position: fixed;
+  }
+  .dropdown li {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  .dropdown a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.15em;
+    padding: 0.75em 1.5em;
+  }
+
+  .menu-button {
+    transition: 1s ease all;
+    width: 25%;
+    box-shadow: none;
+    display: inline-block;
+    right: 0;
+    margin-top: 15px;
+  }
+  .dropdown-menu {
+    transition: 0.7s ease all;
+  }
+
+  /*Por enquanto*/
+  .bigHeader {
+    display: none;
+  }
+  .contentBorder{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    justify-content: center;
+  }
+  .contact-col,#vertical-bar {
+    width: 90%;
+    margin: auto 0;
+    padding: auto;
+  }
+  .contact-col iframe {
+    width: 110%;
+    margin: auto -5% auto -5%;
+    padding: auto;
+  }
+  #break {
+    display: none;
+  }
+  form {
+    margin: auto;
+  }
+  form input {
+    width: 46%;
+  }
+  form textarea {
+    width: 100%;
+  }
+  .inform {
+    margin: auto;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .midContent {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .bigName {
+    display: none;
+  }
+
+  .servicesShow{
+    width: 80%;
+  }
+
+  .navContent img {
+    margin-left: 0;
+  }
+  form input, textarea {
+    width: 95%;
+  }
+}
+@media only screen and (min-width: 680px) {
+  .folderContent {
+    margin-top: 150px;
+  }
+}
